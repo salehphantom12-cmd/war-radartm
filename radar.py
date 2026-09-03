@@ -52,7 +52,7 @@ def save_sent(items):
 # Telegram Sender
 # =====================
 
-def send Telegram(message):
+def send_telegram(message):
     url = (
         f"https://api.telegram.org/bot"
         f"{TELEGRAM_BOT_TOKEN}/sendMessage"
